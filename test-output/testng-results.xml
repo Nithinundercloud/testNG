@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-10T11:45:02 IST" name="ListenerExecution" finished-at="2022-12-10T11:45:02 IST" duration-ms="175">
+    <groups>
+    </groups>
+    <test started-at="2022-12-10T11:45:02 IST" name="TestNG test case is written here!" finished-at="2022-12-10T11:45:02 IST" duration-ms="175">
+      <class name="testNg.annotation.MyTestOne">
+        <test-method signature="testone()[pri:0, instance:testNg.annotation.MyTestOne@1a0dcaa]" started-at="2022-12-10T11:45:02 IST" name="testone" finished-at="2022-12-10T11:45:02 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+        <test-method signature="testwo()[pri:0, instance:testNg.annotation.MyTestOne@1a0dcaa]" started-at="2022-12-10T11:45:02 IST" name="testwo" finished-at="2022-12-10T11:45:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwo -->
+      </class> <!-- testNg.annotation.MyTestOne -->
+    </test> <!-- TestNG test case is written here! -->
+  </suite> <!-- ListenerExecution -->
+</testng-results>

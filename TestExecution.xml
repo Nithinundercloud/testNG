@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ListenerExecution">
+<listeners>
+        <listener class-name="testNg.annotation.AnnotationTransformer"/>
+        <listener class-name="testNGListeners.ListentoMe"/>
+
+  </listeners>
+
+    <test name="TestNG test case is written here!">
+        <classes>
+            <class name="testNg.annotation.MyTestOne"></class>
+        </classes>
+    </test>
+    
+    
+</suite>
